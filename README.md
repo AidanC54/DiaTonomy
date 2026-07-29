@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="app/src/main/ic_launcher-playstore.png" width="100" />
+</p>
 # DiaTonomy
 
 DiaTonomy reads dose history off a NovoPen 6 (or NovoPen Echo Plus) over NFC and syncs it to a self-hosted [Nightscout](https://github.com/nightscout/cgm-remote-monitor) instance — no manual logging, no proprietary cloud app required.
