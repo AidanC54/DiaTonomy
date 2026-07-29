@@ -92,6 +92,10 @@ From then on, tapping a registered pen reads its dose history, logs any new dose
 - If a sync fails (e.g. phone off Wi-Fi, server unreachable), the doses are queued locally and retried automatically via a background worker once connectivity returns
 - Primer/test shots taken before a real injection are logged like any other dose — the app doesn't attempt to filter them out, since the pen doesn't reliably distinguish them from a real dose in its own data
 
+## Project status
+
+This was built to solve a specific personal need and does that well. It's not under active feature development, but bug reports and well-reasoned feature suggestions are welcome — if something's genuinely useful, I'll likely implement it.
+
 ## Disclaimer
 
 This is a personal project, not a medical device, and is not affiliated with or endorsed by Novo Nordisk, Dexcom, or the Nightscout Foundation. Use at your own risk. Always verify displayed data against your pen's own screen if you have any doubt about accuracy.
